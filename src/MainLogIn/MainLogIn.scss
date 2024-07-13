@@ -1,0 +1,217 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.login-signup-page {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    .login-main-page {
+        background-color: rgb(17, 17, 17);
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0px -1px 8px rgb(41, 41, 41), 0px 1px 7px rgb(126, 126, 126);
+
+
+
+        .login-page {
+            background-color: rgb(4, 0, 8);
+            display: flex;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            top: 50%;
+            padding: 40px;
+            cursor: pointer;
+
+            .login-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                span {
+                    font-size: 30px;
+                    margin-top: -45px;
+                    margin-left: 100%;
+                    padding-left: 45px;
+                    cursor: pointer;
+                }
+
+                .label-title {
+                    text-align: center;
+
+                    h1 {
+                        font-size: 50px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+
+                .login-sign-up-buttons {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 25px;
+                    background-color: rgb(0, 0, 0);
+                    box-shadow: 0px -1px 8px rgb(54, 54, 54), 0px 1px 7px rgb(126, 126, 126);
+                    margin: 10px 0px;
+                    padding: 0px 10px;
+                    border-radius: 15px;
+
+                    li {
+                        padding: 10px 30px;
+                        margin: 5px 10px;
+                        border: none;
+                        outline: none;
+                        color: white;
+                        font-size: 18px;
+                        border-radius: 15px;
+
+                    }
+
+                    .i-active-button {
+                        border: none;
+                        background-image: linear-gradient(to right, rgb(54, 54, 54), black);
+
+
+                    }
+                }
+
+                .or {
+                    a {
+                        font-size: 15px;
+                        font-weight: 0;
+                        text-decoration: none;
+                        color: aliceblue;
+                    }
+                }
+            }
+
+            ol,
+            ul {
+                padding-left: 0rem;
+            }
+
+            .social-login {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+
+
+                ol,
+                ul {
+                    padding-left: 0px;
+                }
+
+                .google-icon,
+                .git-icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 18px;
+                    background-image: linear-gradient(to right, rgb(54, 54, 54), black);
+                    box-shadow: 0px -1px 8px rgb(54, 54, 54), 0px 1px 7px rgb(126, 126, 126);
+                    padding: 5px;
+                    margin: 10px;
+                    width: 100%;
+                    max-width: 300px;
+                    border-radius: 15px;
+
+                    img {
+                        width: 12%;
+                        background-color: white;
+                        padding: 3px;
+                        border-radius: 50%;
+                    }
+
+                    P {
+                        margin: 10px;
+                    }
+
+                    .git-icon img {
+                        width: 50%;
+                        padding: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .login-signup-page .login-main-page {
+        padding: 10px;
+    }
+
+    .login-signup-page .login-main-page .login-page {
+        padding: 25px;
+    }
+
+    .login-signup-page .login-main-page .login-page .login-container span {
+        margin-top: -28px;
+        padding-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .login-signup-page .login-main-page .login-page .login-container .login-sign-up-buttons li {
+        padding: 10px 30px;
+        margin: 5px 10px;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+
+    .login-signup-page .login-main-page .login-page .social-login .google-icon,
+    .login-signup-page .login-main-page .login-page .social-login .git-icon {
+        padding: 3px 5px;
+    }
+
+    .login-signup-page .login-main-page .login-page .login-container .label-title h1 {
+        font-size: 45px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .login-signup-page .login-main-page .login-page .login-container .label-title h1 {
+        font-size: 35px;
+    }
+
+    .login-signup-page .login-main-page .login-page .login-container .label-title p {
+        font-size: 12px;
+    }
+
+    .login-signup-page .login-main-page .login-page .login-container .login-sign-up-buttons li {
+        padding: 10px 15px
+    }
+
+    .login-signup-page .login-main-page .login-page .social-login .google-icon P,
+    .login-signup-page .login-main-page .login-page .social-login .git-icon P {
+        font-size: 15px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+
+    .login-signup-page .login-main-page .login-page .login-container .label-title p {
+        font-size: 10px;
+    }
+
+   
+}

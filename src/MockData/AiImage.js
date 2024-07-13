@@ -1,0 +1,23 @@
+export const AiImage = [
+{
+    IMG:"https://i.pinimg.com/736x/54/f6/fe/54f6fe85a42a39b6e57d2008cf18964f.jpg",
+},{
+    IMG:"https://assets.promptbase.com/DALLE_IMAGES%2FI3hGR1KNIphD6yNQc7qneGqFdzJ2%2Fresized%2F1696696476351p_800x800.webp?alt=media&token=17775b90-f2e8-415b-af2e-ceb49e35adad"
+},{
+    IMG:"https://t3.ftcdn.net/jpg/05/78/09/92/360_F_578099259_PiNeMuVL8kuYKNsbepxR9z2T2gyNICmT.jpg"
+},{
+    IMG:"https://static.vecteezy.com/system/resources/thumbnails/033/931/023/small_2x/a-village-at-sunset-with-houses-and-mountains-in-the-background-ai-generated-photo.jpg"
+},{
+    IMG:"https://static.vecteezy.com/system/resources/thumbnails/011/171/301/small/road-trip-vacation-by-car-on-mountain-highway-with-rocky-cliffs-view-concept-cartoon-illustration-vector.jpg"
+},{
+    IMG:"https://banner2.cleanpng.com/20230423/kei/transparent-cartoon-bus-eco-bus-green-bus-world-car-free-day-1711148244581.webp"
+},{
+    IMG:"https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg"
+},{
+    IMG:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrOGC9_sshF7-uRK2GZ7vxSOeCIRUazYZHiYYghgKokZjKrS0t1pypa9gszz1Odxr4otQ&usqp=CAU"
+},{
+    IMG:"https://png.pngtree.com/background/20230611/original/pngtree-cartoon-animation-of-the-mountains-and-trees-picture-image_3142028.jpg"
+},{
+    IMG:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4AkCAwRp3r5-8pAwu5EDpe0dylBPgXjh1ew&s"
+}
+]

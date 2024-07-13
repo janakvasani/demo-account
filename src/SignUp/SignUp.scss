@@ -1,0 +1,150 @@
+.signup-form {
+    .form-group {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid transparent;
+        padding: 5px;
+        border-radius: 15px;
+        margin: 10px 1px;
+        height: auto;
+        box-shadow: 0px -1px 8px rgb(54, 54, 54), 0px 1px 7px rgb(126, 126, 126);
+        margin-top: 20px;
+
+        .input-wrapper {
+            display: inline-block;
+            text-align: start;
+            margin-left: 10px;
+            align-items: center;
+
+            input {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                color: white;
+            }
+
+            label {
+                font-size: 10px;
+            }
+        }
+
+        input {
+            width: 99%;
+            height: 25px;
+        }
+
+        .icon-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 2px solid white;
+            height: 15px;
+            padding: 15px 20px;
+        }
+
+        .password-container {
+            display: flex;
+            align-items: center;
+
+            input {
+                flex: 1;
+            }
+
+            .toggle-icon {
+                cursor: pointer;
+                color: white;
+            }
+
+            .toggle-icon:hover {
+                color: #ff0000;
+            }
+        }
+    }
+
+    .form-check {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+
+        input {
+            margin: 0;
+        }
+
+        label {
+            font-size: 13px;
+            margin-top: 2px;
+        }
+    }
+}
+
+.actions-signup {
+    display: block;
+    button {
+        background-image: linear-gradient(to right, rgb(54, 54, 54), black);
+        z-index: 1;
+        border: none;
+        padding: 10px 115px;
+        color: white;
+        border-radius: 8px;
+        margin: 10px 0px;
+        box-shadow: 0px -1px 8px rgb(54, 54, 54), 0px 1px 7px rgb(126, 126, 126);
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .signup-form .form-group {
+        padding: 1px;
+    }
+
+    .signup-form .form-group .icon-wrapper {
+        padding: 15px 15px;
+    }
+
+    .signup-form .form-group {
+        justify-content:center;
+    }
+
+    .signup-form .form-group {
+        margin: 10px;
+    }
+    .signup-form .form-group {
+        margin: 20px 0px;
+    }
+    .actions-signup  button {
+        padding: 10px 105px;
+        margin: 10px 0px;   
+    }
+
+}   
+
+
+@media only screen and (max-width: 320px) {
+    .signup-form button {
+        padding: 10px 85px;
+    }
+
+    .signup-form .forgot-password {
+        margin: 10px 0px;
+        font-size: 10px;
+     
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 10px;
+    }
+
+    .actions-signup button {
+        padding: 10px 76px;
+    }
+
+    .signup-form .form-group {
+        margin: 15px 0px;
+    }
+}
